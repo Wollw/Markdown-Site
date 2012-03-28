@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>My Site</title>
+		<style>
+			body,div {
+				padding:10px;
+				font-family:sans-serif;
+			}
+		</style>
+	</head>
+	<body style="background:black">
+		<div style="background:green;color:white">My Site!</div>
+		<div style="background:grey">
+			<!--#include virtual="./getcontent.pl?$QUERY_STRING"-->
+		</div>
+	</body>
+</html>
