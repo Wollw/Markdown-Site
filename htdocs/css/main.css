@@ -16,7 +16,7 @@ div {
 }
 
 #content {
-	background:White;	
+	background:White;
 	padding-left:50px;
 	padding-right:50px;
 }
@@ -34,6 +34,7 @@ div {
 }
 #header img {
 	vertical-align:bottom;
+	border-style:none;
 }
 
 /* Navigation menu css based on code found at 
@@ -77,10 +78,14 @@ div {
 	left:-9999px;
 }
 #nav ul ul li {
-	padding-top:1px;
 	float:none;
 	border:1px solid Black;
 	border-top:0;
+	background:White;
+	margin:0;
+}
+#nav ul ul li:first-child {
+	border-top:1px solid Black;
 }
 #nav ul ul a {
 	white-space:nowrap;
