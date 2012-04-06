@@ -1,0 +1,123 @@
+body {
+	background:Black;
+	font-family:"Verdana", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+div {
+	padding:10px;
+}
+
+#container {
+	border:1px solid White;
+	margin:auto;
+	padding:1px;
+	background:Black;
+	width:960px;
+}
+
+#content {
+	background:White;	
+	padding-left:50px;
+	padding-right:50px;
+}
+
+#header {
+	background:Black;
+	color:White;
+	font-size:24pt;
+	margin:0;
+	padding:0;
+}
+#header p {
+	margin:0;
+	padding:0;
+}
+#header img {
+	vertical-align:bottom;
+}
+
+/* Navigation menu css based on code found at 
+ * http://csswizardry.com/2011/02/creating-a-pure-css-dropdown-menu/
+ */
+#nav {
+	background:White;
+	padding:0;
+	font-family:"Verdana", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	border-bottom:1px solid Black;
+}
+/* Navigation bar */
+#nav ul {
+	list-style:none;
+	float:left;
+	margin-top:0;
+	padding-top:5px;
+	margin-bottom:5px;
+}
+#nav ul li {
+	float:left;
+	margin-right:10px;
+	position:relative;
+	padding:0;
+}
+#nav ul a {
+	text-align:center;
+	display:block;
+	width:220px;
+	color:Black;
+	text-decoration:none;
+}
+#nav ul a:hover {
+}
+/* Dropdown */
+#nav ul ul {
+	background:White;
+	background:rgba(255,255,255,0);
+	list-style:none;
+	position:absolute;
+	left:-9999px;
+}
+#nav ul ul li {
+	padding-top:1px;
+	float:none;
+	border:1px solid Black;
+	border-top:0;
+}
+#nav ul ul a {
+	white-space:nowrap;
+}
+#nav ul li:hover ul {
+	left:-40px;
+}
+#nav ul li:hover a {
+	background:White;
+}
+#nav ul li:hover ul a {
+	text-decoration:none;
+}
+#nav ul li:hover ul li a:hover {
+	background:White;
+}
+
+#footer {
+	border-top:1px solid Black;
+	background:white;	
+}
+#footer p {
+	font-size:10pt;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+#footer a {
+	padding-left:20px;
+	padding-right:20px;
+	color:Black;
+}
+
+#copywrite {
+	margin:auto;
+}
+#copywrite p {
+	text-align:center;
+	font-size:9pt;
+}

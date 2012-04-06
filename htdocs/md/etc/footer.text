@@ -1,0 +1,4 @@
+[Home](./)
+[Section 1](?page=section1)
+[Section 2](?page=section2)
+[About](?page=about)

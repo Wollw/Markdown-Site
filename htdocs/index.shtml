@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Template</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<!--[if lt IE 8]>
+		<link rel="stylesheet" type="text/css" href="css/ie7fix.css">
+		<![endif]-->
+	</head>
+	<body>
+		<div id="container">
+
+			<div id="header">
+				<!--#include virtual="../cgi-bin/getcontent.pl?page=etc/header"-->
+			</div>
+
+			<div id="nav">
+				<!--#include virtual="../cgi-bin/getcontent.pl?page=etc/nav"-->
+				<br style="clear:both">
+			</div>
+
+			<div id="content">
+				<!--#include virtual="../cgi-bin/getcontent.pl?$QUERY_STRING"-->
+			</div>
+
+			<div id="footer">
+				<!--#include virtual="../cgi-bin/getcontent.pl?page=etc/footer"-->
+			</div>
+
+		</div>
+
+		<div id="copywrite">
+			<!--#include virtual="../cgi-bin/getcontent.pl?page=etc/copywrite"-->
+		</div>
+
+	</body>
+</html>
