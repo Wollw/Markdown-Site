@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Template</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
 		<!--[if lt IE 8]>
 		<link rel="stylesheet" type="text/css" href="css/ie7fix.css">
 		<![endif]-->
